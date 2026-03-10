@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #dab1d3;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  background: rgb(230, 217, 228);
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 12px;
+  background: #da71b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e338aa;
+}
+
+li {
+  background: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+li button {
+  padding: 8px 12px;
+  background: #e83b3b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #e71616;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.delete-btn {
+  margin-left: auto;
+}
+
+li span {
+  flex: 1;
+}
+
+.delete-btn {
+  margin-left: auto;
+}
+
+#taskList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.move-btn {
+  padding: 4px 8px;
+  background: #bbb;
+  color: #222;
+}
+
+.move-btn {
+  padding: 4px 8px; /* 小さめ */
+  font-size: 12px;
+  line-height: 1;
+  background: #bbb;
+  color: #222;
+  border-radius: 6px;
+}
+
+.move-btn:hover {
+  background: #999;
+}
+
+.container {
+  width: 300px;
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px; /* 2段目との間隔 */
+}
+
+.search-area input {
+  flex: 1;
+  min-width: 0;
+}
+
+.search-area button {
+  flex: 0 0 auto;
+  min-width: 8px;
+  padding: 8px 12px;
+  background: #bbb;
+  color: #222;
+}
+
+.search-area button:hover {
+  background: #999;
+}
